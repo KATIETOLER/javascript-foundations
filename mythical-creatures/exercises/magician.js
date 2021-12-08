@@ -8,8 +8,7 @@ class Magician {
     this.confidencePercentage = 10;
   }
   performIncantation(incantation) {
-    var incant = incantation.toUpperCase()
-    return  `${incant}!`
+    return  `${incantation.toUpperCase()}!`
   }
 performTrick(){
   this.confidencePercentage+=10
@@ -19,7 +18,7 @@ performTrick(){
   return `PULL DOVE FROM SLEEVE`
   }
 performShowStopper() {
-  if(this.confidencePercentage >=100 && this.assistant === true) {
+  if(this.confidencePercentage >=100 && this.assistant) {
     return `WOW! The magician totally just sawed that person in half!`
     }
   return `Oh no, this trick is not ready!`
