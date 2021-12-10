@@ -1,4 +1,3 @@
-
 class Magician {
 
   constructor(magician){
