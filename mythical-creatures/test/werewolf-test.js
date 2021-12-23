@@ -147,7 +147,6 @@ describe('Victim', function() {
 
   it('should be alive', function () {
     var victim = new Victim('Leta');
-
     assert.equal(victim.alive, true);
   });
 });
