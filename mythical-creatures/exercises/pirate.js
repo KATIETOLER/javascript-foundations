@@ -14,13 +14,12 @@ class Pirate {
     return `ARG! I\'ve been cursed!`
   }
   liftCurse() {
-    if(this.booty>=500 && this.cursed === true){
+    if(this.booty>=500 && this.cursed){
       this.booty-=300;
       this.cursed=false;
       return `Your curse has been lifted!`
-    } else{
-      return `You don\'t need to lift a curse!`
     }
+      return `You don\'t need to lift a curse!`
   }
 }
 

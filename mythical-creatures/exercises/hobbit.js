@@ -13,9 +13,8 @@ class Hobbit {
       this.adult=false;
     } else if(this.age>=101){
       this.old=true;
-    } else {
+    }
       return this.adult=true;
-      }
     }
     getRing() {
       if(this.name === "Frodo") {
