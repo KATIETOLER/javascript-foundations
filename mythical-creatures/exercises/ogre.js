@@ -1,5 +1,3 @@
-
-
 class Ogre {
   constructor(ogre) {
     this.name = ogre.name;
